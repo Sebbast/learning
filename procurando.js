@@ -1,4 +1,4 @@
-const listaDeAlunos = ['João','Juliana','Caio','Ana'];
+const listaDeAlunos = ['Amanda','Juliana','Caio','Ana'];
 
 const notasDeAlunos = [10,7,9,6];
 
