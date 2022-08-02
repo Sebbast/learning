@@ -23,3 +23,26 @@ const chave = ["nome","idade","cpf","email"];// objeto cliente[chave[aqui dentro
 console.log(cliente[chave[0]]);
 
 //chave.forEach(coisa => console.log(cliente[coisa]));
+
+//adicionando
+console.log(cliente);
+cliente.fone = "456878932";
+console.log(cliente);
+ cliente.fone = "999999999";
+ //substitui o valor anteriormente atribuido
+ console.log(cliente);
+
+ //deletar
+ const objPersonagem = {
+    nome: "Gandalf",
+    classe: "mago",
+    nivel: "20",
+    aliado: {
+      nome: "Saruman",
+      classe: "mago"
+    },
+    status: "desaparecido"
+   }
+   delete objPersonagem.aliado
+
+console.log(objPersonagem.aliado) //undefined
