@@ -16,3 +16,10 @@ console.log(`meu nome é ${cliente.nome}
 minha idade é ${cliente.idade}
 meu cpf ${cliente.cpf}
 e meu unico meio de comunicação é ${cliente.email} não se esqueça`);
+
+const chave = ["nome","idade","cpf","email"];// objeto cliente[chave[aqui dentro precisa de algo que tenha os mesmos caracteres do que foi definido em cliente]]
+//caso chave tenha um nome diferente como chave = ["coisa", "idade","cpf","email"], console.log(cliente[chave[0]]) constará undefined
+
+console.log(cliente[chave[0]]);
+
+//chave.forEach(coisa => console.log(cliente[coisa]));
