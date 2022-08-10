@@ -33,3 +33,7 @@ const filhoMaisVelho = cliente.dependentes.filter(dependente => dependente.nasci
 //filtrar, foi acessado o dado nascimento o que será retornado no console.log será o nome do dependente que tiver o dado nascimento==="01/01/0001" 
 
 console.log(filhoMaisVelho[0].nome);
+
+
+
+
