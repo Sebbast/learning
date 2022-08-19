@@ -26,4 +26,6 @@ function encheroSaco(obj){
 }
 encheroSaco(cliente);
 
+
 //object.values(cliente) para pegar os valores de um objeto
+//console.log(Object.entries(cliente)) para trazer arrays de conjuntos de chaves e valores indice 0 chave e indice 1 ao valor (indice 0 = nome/indice 1 = "Andre")
