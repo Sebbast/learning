@@ -25,3 +25,5 @@ function encheroSaco(obj){
 
 }
 encheroSaco(cliente);
+
+//object.values(cliente) para pegar os valores de um objeto
